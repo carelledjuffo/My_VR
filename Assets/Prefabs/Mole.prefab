@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 4986356015268756074}
   m_Layer: 0
   m_Name: Mole
-  m_TagString: Untagged
+  m_TagString: NormalMole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,9 +517,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5147605050955798736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82004d8dbb2f74dbda438e784c6a412a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7730fa8d06f074eaab164b6601d503dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moleAnimator: {fileID: 0}
+  hitPoints: 1
+  molePoints: 3
 --- !u!54 &-3564594878085051521
 Rigidbody:
   m_ObjectHideFlags: 0
